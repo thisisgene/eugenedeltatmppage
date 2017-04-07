@@ -1,5 +1,17 @@
 @charset "utf-8";
 
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #bbb;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #bbb;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #bbb;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #bbb;
+}
 
 @keyframes grayscale {
   0%, 100%  { filter: grayscale(0); }
@@ -335,6 +347,89 @@ h2 {
   font-size: 3rem;
   color: #fff;
 }
+
+footer {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 145px;
+  opacity: .4;
+  background: rgba(0, 0, 255, .8);
+  -webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+  -o-filter: blur(2px);
+  -ms-filter: blur(2px);
+  filter: blur(2px);
+  -webkit-transform: translateY(100px);
+  -moz-transform: translateY(100px);
+  -ms-transform: translateY(100px);
+  -o-transform: translateY(100px);
+  transform: translateY(100px);
+
+  -webkit-transition: all 300ms;
+  -moz-transition: all 300ms;
+  -ms-transition: all 300ms;
+  -o-transition: all 300ms;
+  transition: all 300ms;
+}
+footer:hover {
+  -webkit-filter: blur(0px);
+  -moz-filter: blur(0px);
+  -o-filter: blur(0px);
+  -ms-filter: blur(0px);
+  filter: blur(0px);
+  -webkit-transform: translateY(0px);
+  -moz-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  -o-transform: translateY(0px);
+  transform: translateY(0px);
+  opacity: .8;
+}
+
+footer p {
+  font-family: Helvetica;
+  font-weight: lighter;
+  font-size: 1vw;
+  letter-spacing: 2px;
+  text-align: center;
+  color: yellow;
+}
+
+.newsletter-container {
+  margin-bottom: 1rem;
+}
+.newsletter-container p {
+  font-size: 1.4rem;
+  margin-top: .5rem;
+  margin-bottom: .8rem;
+}
+
+.nl-signup {
+  display: flex;
+  flex-direction: row;
+}
+.email, .button {
+  background: rgba(255, 255, 255, .2);
+  border: 1px solid #aaa;
+  height: 2rem;
+  padding: 0 1rem;
+  margin: 0;
+  line-height: 1rem;
+  box-sizing: border-box;
+}
+.button {
+  cursor: pointer;
+}
+
+.contact a {
+  text-decoration: dashed;
+  color: #3f7;
+}
+
 
 @media screen and (max-width: 1024px) and (orientation: landscape) {
   .link_container {
