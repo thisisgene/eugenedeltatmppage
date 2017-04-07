@@ -365,6 +365,7 @@ footer {
   opacity: .4;
   background: rgba(20, 20, 250, .8);
   border-top: 6px dotted #3f7;
+  margin-top: 0px;
 
   -webkit-filter: blur(2px) grayscale(1);
   -moz-filter: blur(2px) grayscale(1);
@@ -394,8 +395,11 @@ footer:hover {
   opacity: .8;
   /*background: rgba(20, 20, 20, .8);*/
 
-}
 
+}
+footer:hover .newsletter-container {
+  /*margin-top: 10px;*/
+}
 
 footer p {
   font-weight: lighter;
@@ -406,12 +410,12 @@ footer p {
 }
 
 .newsletter-container {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 .newsletter-container p {
   font-size: 1.4rem;
-  margin-top: .7rem;
-  margin-bottom: .1rem;
+  margin-top: .2rem;
+  margin-bottom: .4rem;
   height: 2rem;
 }
 
@@ -429,15 +433,15 @@ footer p {
   box-sizing: border-box;
   font-size: 1.1rem;
 }
-.email {
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
-}
+/*.email {*/
+  /*border-top-left-radius: 5px;*/
+  /*border-bottom-left-radius: 5px;*/
+/*}*/
 .button {
   cursor: pointer;
   border-left: none;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
+  /*border-top-right-radius: 5px;*/
+  /*border-bottom-right-radius: 5px;*/
   -webkit-transition: all 300ms;
   -moz-transition: all 300ms;
   -o-transition: all 300ms;
