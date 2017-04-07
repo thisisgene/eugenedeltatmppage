@@ -438,6 +438,11 @@ h2 {
   .animSong {
     font-size: 13.5vw;
   }
+
+  .small_p {
+    font-size: 3.2vw;
+  }
+
   .comingSoonP {
     font-size: 3vw;
   }
