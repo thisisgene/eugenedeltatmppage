@@ -365,6 +365,11 @@ h2 {
     height: 70vh;
     box-sizing: border-box;
     margin: 1rem auto 0 auto;
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
   }
 
   h1 {
@@ -416,6 +421,11 @@ h2 {
     height: 90vw;
     box-sizing: border-box;
     margin: 0 auto;
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
   }
 
   h1 {
