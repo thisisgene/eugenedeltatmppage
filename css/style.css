@@ -422,21 +422,32 @@ footer p {
 .nl-signup {
   display: flex;
   flex-direction: row;
+  box-shadow: 2px 2px 3px rgba(255, 255, 255, .3);
+
 }
-.email, .button {
-  background: rgba(255, 255, 255, .2);
-  border: 1px solid rgba(255, 220, 255, .3);
+
+.email, .button, .name {
+  background: rgba(255, 255, 255, .1);
+  border: 2px solid #ccc;
   height: 2rem;
   padding: 0 1rem;
   margin: 0;
   line-height: 1rem;
   box-sizing: border-box;
-  font-size: 1.1rem;
+  font-size: .9rem;
+  font-weight: lighter;
 }
 /*.email {*/
   /*border-top-left-radius: 5px;*/
   /*border-bottom-left-radius: 5px;*/
 /*}*/
+.name, .email {
+  width: 140px;
+}
+
+.email {
+  border-left: none;
+}
 .button {
   cursor: pointer;
   border-left: none;
@@ -446,6 +457,8 @@ footer p {
   -moz-transition: all 300ms;
   -o-transition: all 300ms;
   transition: all 300ms;
+  background: rgba(255, 255, 255, .5);
+  width: 100px;
 }
 .button:hover {
   -webkit-filter: invert(100%);
