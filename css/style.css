@@ -102,7 +102,7 @@ body.background-loaded:after {
 .link_list li a {
   text-decoration: none;
   font-size: 6.5vw;
-  color: blue
+  color: blue;
   -webkit-filter: blur(5px);
   -moz-filter: blur(5px);
   -o-filter: blur(5px);
@@ -338,11 +338,11 @@ h2 {
 
     background: rgba(0, 0, 0, .3);
     mix-blend-mode: screen;
-    -webkit-filter: blur(0px);
-    -moz-filter: blur(0px);
-    -o-filter: blur(0px);
-    -ms-filter: blur(0px);
-    filter: blur(0px);
+    -webkit-filter: blur(1px);
+    -moz-filter: blur(1px);
+    -o-filter: blur(1px);
+    -ms-filter: blur(1px);
+    filter: blur(1px);
   }
   .link_list li a {
     text-decoration: none;
