@@ -8,9 +8,14 @@ var preload = function(src, callback) {
   img.src = src;
 };
 
-// $(document).ready(function() {
-//   animateSwitch(6);
-// })
+$(document).ready(function() {
+  // animateSwitch(6);
+  setTimeout(function() {
+    // $("body").toggleClass("animInvertLoop");
+    animateSwitch(6);
+
+  }, 1000);
+})
  
 $("body").addClass("loading-background");
 var bImage = 'img/backDark.jpg';
@@ -23,32 +28,32 @@ preload(bImage, function() {
 });
 
 
-// animateSwitch = function(animeCount){
-//   // switch (animeCount) {
-//   //   case 9:
-//   //     $("body").toggleClass("animInvert");
-//   //     setTimeout(function() {
-//
-//   //       animateSwitch(10);
-//
-//   //     }, 1200);
-//   //     break;
-//   //   case 10:
-//   //     $("html").toggleClass("animInvert");
-//   //     $("body").toggleClass("animInvert");
-//   //     setTimeout(function() {
-//
-//   //       animateSwitch(9);
-//
-//   //     }, 1200);
-//   // }
-//   setTimeout(function() {
-//     $("body").toggleClass("animInvertLoop");
-//     animateSwitch(6);
-//
-//   }, 1200);
-//
-// };
+animateSwitch = function(animeCount){
+  // switch (animeCount) {
+  //   case 9:
+  //     $("body").toggleClass("animInvert");
+  //     setTimeout(function() {
+
+  //       animateSwitch(10);
+
+  //     }, 1200);
+  //     break;
+  //   case 10:
+  //     $("html").toggleClass("animInvert");
+  //     $("body").toggleClass("animInvert");
+  //     setTimeout(function() {
+
+  //       animateSwitch(9);
+
+  //     }, 1200);
+  // }
+  setTimeout(function() {
+    $("body").toggleClass("animInvertLoop");
+    animateSwitch(6);
+
+  }, 1200);
+
+};
 
 showReplay = function() {
   setTimeout(function() {

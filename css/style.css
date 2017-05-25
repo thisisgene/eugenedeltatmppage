@@ -207,9 +207,9 @@ body.background-loaded:after {
 .animInvertLoop {
   /*-webkit-animation: invert 2400ms infinite;
   animation: invert 2400ms infinite;*/
-  filter: invert(100%) saturate(10);
-  -webkit-filter: invert(100%) saturate(10);
-  -moz-filter: invert(100%) saturate(10);
+  filter: saturate(10);
+  -webkit-filter: saturate(10);
+  -moz-filter: saturate(10);
 
 }
 
