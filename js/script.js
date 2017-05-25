@@ -23,32 +23,32 @@ preload(bImage, function() {
 });
 
 
-animateSwitch = function(animeCount){
-  // switch (animeCount) {
-  //   case 9:
-  //     $("body").toggleClass("animInvert");
-  //     setTimeout(function() {
-        
-  //       animateSwitch(10);
-        
-  //     }, 1200);
-  //     break;
-  //   case 10:
-  //     $("html").toggleClass("animInvert");  
-  //     $("body").toggleClass("animInvert");
-  //     setTimeout(function() {
-        
-  //       animateSwitch(9);
-        
-  //     }, 1200);  
-  // }
-  setTimeout(function() {
-    $("body").toggleClass("animInvertLoop");
-    animateSwitch(6);
-    
-  }, 1200);
-  
-};
+// animateSwitch = function(animeCount){
+//   // switch (animeCount) {
+//   //   case 9:
+//   //     $("body").toggleClass("animInvert");
+//   //     setTimeout(function() {
+//
+//   //       animateSwitch(10);
+//
+//   //     }, 1200);
+//   //     break;
+//   //   case 10:
+//   //     $("html").toggleClass("animInvert");
+//   //     $("body").toggleClass("animInvert");
+//   //     setTimeout(function() {
+//
+//   //       animateSwitch(9);
+//
+//   //     }, 1200);
+//   // }
+//   setTimeout(function() {
+//     $("body").toggleClass("animInvertLoop");
+//     animateSwitch(6);
+//
+//   }, 1200);
+//
+// };
 
 showReplay = function() {
   setTimeout(function() {
