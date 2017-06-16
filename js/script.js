@@ -10,11 +10,11 @@ var preload = function(src, callback) {
 
 $(document).ready(function() {
   // animateSwitch(6);
-  setTimeout(function() {
-    // $("body").toggleClass("animInvertLoop");
-    animateSwitch(6);
-
-  }, 1000);
+  // setTimeout(function() {
+  //   // $("body").toggleClass("animInvertLoop");
+  //   animateSwitch(6);
+  //
+  // }, 1000);
 })
  
 $("body").addClass("loading-background");
@@ -47,11 +47,11 @@ animateSwitch = function(animeCount){
 
   //     }, 1200);
   // }
-  setTimeout(function() {
-    $("body").toggleClass("animInvertLoop");
-    animateSwitch(6);
-
-  }, 1200);
+  // setTimeout(function() {
+  //   $("body").toggleClass("animInvertLoop");
+  //   animateSwitch(6);
+  //
+  // }, 1200);
 
 };
 
