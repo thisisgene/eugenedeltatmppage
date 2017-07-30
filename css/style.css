@@ -472,6 +472,7 @@ footer p {
 
 .newsletter-container {
   margin-bottom: 1rem;
+  z-index: 100;
 }
 .newsletter-container p {
   font-size: 1.4rem;
